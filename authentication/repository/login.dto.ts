@@ -1,4 +1,4 @@
-import BaseDTO from "../../../core/dto/base.dto";
+import BaseDTO from "../../core/dto/base.dto";
 
 type LoginPayload = {
 	email: string;

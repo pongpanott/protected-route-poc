@@ -1,6 +1,6 @@
 import { Rxios as BaseRxios } from "./base-rxios";
 import { AxiosRequestConfig } from "axios";
-import { getAccessToken } from "../pages/authentication/token";
+import { getAccessToken } from "../authentication/token";
 
 class Rxios extends BaseRxios {
 	override interceptor = (config: AxiosRequestConfig): AxiosRequestConfig => {

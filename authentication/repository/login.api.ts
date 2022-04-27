@@ -1,4 +1,4 @@
-import Rxios from "../../../core/base-rxios";
+import Rxios from "../../core/base-rxios";
 import { LoginResponse } from "./login-response";
 import LoginDTO from "./login.dto";
 
